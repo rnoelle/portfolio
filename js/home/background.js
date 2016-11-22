@@ -31,7 +31,7 @@ angular.module('portfolio')
             })
           } else if (winScroll >= 2850) {
             $('.scroll-nav-container').addClass('hidden-nav-cover');
-            $('.original-scroll').empty();
+            $('.original-scroll').css({'opacity': '0'});
           }
         })
       }
