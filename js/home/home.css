@@ -1,0 +1,55 @@
+
+.home-empty-space {
+  width: 100vw;
+  height: 120vh;
+}
+.home-wrapper {
+  color: white;
+  min-height: 500vh;
+}
+.home-wrapper .container {
+  padding: 30px;
+  z-index: 999;
+  text-align: center;
+}
+body {
+  background: black;
+  min-height: 500vh;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.background-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  background: black;
+  opacity: .35;
+}
+canvas {
+  height: 80vh;
+  width: 70vh;
+  z-index: 1;
+}
+.scroll-nav-container {
+  opacity: 0;
+}
+.hidden-nav-cover {
+  padding: .5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100vw;
+  opacity: 1;
+}
