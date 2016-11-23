@@ -33,6 +33,9 @@ angular.module('portfolio')
             $('.scroll-nav-container').addClass('hidden-nav-cover');
             $('.original-scroll').css({'opacity': '0'});
           }
+          if (winScroll >= 3617) {
+            $('body').css({'overflow': 'hidden'});
+          }
         })
       }
     }

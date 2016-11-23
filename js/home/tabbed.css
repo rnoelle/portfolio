@@ -1,6 +1,56 @@
-.tabbed-view {
+.container.tabbed-view {
   background: rgba(116, 116, 116, 0.44);
   color: white;
   margin-bottom: 10vh;
   height: 55vh;
+  padding-left: 0;
+  padding-top: 0;
+  max-width: 900px;
 }
+
+.tabbed-view ui-view {
+  height: 100%;
+}
+.tabbed-view > ul {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 7vw;
+  margin: 0;
+}
+.tabbed-view > ul li {
+  padding: 4vh 0;
+  color: #ddd;
+  cursor: pointer;
+}
+.tabbed-view > ul li:hover {
+  color: #eee;
+  background: rgba(135, 130, 130, 0.44);
+}
+.tabbed-view > ul li.active {
+  color: #fff;
+  background: rgba(145, 140, 140, 0.44);
+}
+.tabbed-view li:nth-child(2) {
+  border-top: solid .5px #aaa;
+  border-bottom: solid .5px #aaa;
+}
+#bottom-canvas {
+  height: 20vh;
+  width: 23vw;
+  max-height: 150px;
+  max-width: 250px;
+  position: absolute;
+  bottom: -58vh;
+  right: -10vw;
+}
+.container .row.projects-wrapper {
+  width: 90%;
+  height: 55vh;
+  float: right;
+  padding: 1.5em;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar { width: 0 !important }
+.projects-wrapper::-webkit-scrollbar { width: 0 !important }
