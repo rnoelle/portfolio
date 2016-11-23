@@ -54,3 +54,7 @@
 }
 body::-webkit-scrollbar { width: 0 !important }
 .projects-wrapper::-webkit-scrollbar { width: 0 !important }
+
+.skills .card {
+  padding-bottom: .75em;
+}

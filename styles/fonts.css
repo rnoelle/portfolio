@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Raleway');
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: 'Monoton', sans-serif;
 }
 
-p {
+h2, h3, h4, h5, h6, p {
   font-family: 'Raleway', sans-serif;
+}
+
+.heading {
+  text-align: left;
+  color: #CF6900;
+  border-bottom: solid .25px #CF6900;
+  width: 5em;
+}
+
+h5 {
+  line-height: .75em;
+  margin-top: 2px;
 }

@@ -25,15 +25,15 @@ angular.module('portfolio')
 
           $('.background-overlay').css("opacity", (winScroll/4000)+.35)
           console.log(winScroll);
-          if (winScroll <= 2660) {
+          if (winScroll <= 2562) {
             $('#title').css({
               'transform': 'translate(0px, '+ winScroll/1.51 +'px)'
             })
-          } else if (winScroll >= 2850) {
+          } else if (winScroll >= 2750) {
             $('.scroll-nav-container').addClass('hidden-nav-cover');
             $('.original-scroll').css({'opacity': '0'});
           }
-          if (winScroll >= 3617) {
+          if (winScroll >= 3476) {
             $('body').css({'overflow': 'hidden'});
           }
         })
