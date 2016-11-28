@@ -58,3 +58,17 @@ body::-webkit-scrollbar { width: 0 !important }
 .skills .card {
   padding-bottom: .75em;
 }
+.skills .card {
+  background: rgba(116, 116, 116, 0.44);
+}
+.contact h5 {
+  font-size: 1.75rem;
+}
+.contact i {
+  font-size: 2.25rem;
+  margin: 0 7px;
+  float: left;
+}
+.contact li {
+  display: inline-block;
+}

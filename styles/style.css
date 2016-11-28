@@ -5,3 +5,7 @@
 ui-view {
   position: relative;
 }
+
+a:visited {
+  color: #039BE5;
+}
