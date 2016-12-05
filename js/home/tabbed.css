@@ -16,11 +16,11 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 7vw;
+  width: 7rem;
   margin: 0;
 }
 .tabbed-view > ul li {
-  padding: 4vh 0;
+  padding: 3rem 0;
   color: #ddd;
   cursor: pointer;
 }
