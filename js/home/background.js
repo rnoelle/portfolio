@@ -39,7 +39,7 @@ angular.module('portfolio')
                 'opacity': '0'
               });
             }
-            if (winScroll + $(window).height() > $(document).height() - 100) {
+            if (winScroll + $(window).height() > $(document).height() - 50) {
               $('body').css({
                 'overflow': 'hidden'
               });
