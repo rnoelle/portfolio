@@ -4,8 +4,11 @@ angular.module('portfolio')
       template: '<div class="background"><div class="background-overlay"></div> <canvas id="back-canvas"></canvas> </div>',
       restrict: 'E',
       link: function(scope, element, attrs) {
-        $(document).ready(function() {
 
+        $(document).ready(function() {
+          $('#back-canvas').css({"visibility": "visible"})
+          $('svg').css({"display": "none"})
+          $('body').css({"overflow": "auto"})
           var context = document.getElementById('back-canvas').getContext('2d');
           var canvas = document.getElementById('back-canvas');
           var img = new Image();

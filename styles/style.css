@@ -9,3 +9,15 @@ ui-view {
 a:visited {
   color: #039BE5;
 }
+body {
+  overflow: hidden;
+}
+#back-canvas {
+  visibility: hidden;
+}
+svg {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
