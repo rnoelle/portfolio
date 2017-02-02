@@ -28,6 +28,7 @@ angular.module('portfolio')
               440 * Math.floor((Math.floor(winScroll / 40)) / 11) + 60,
               650, 1200, 0, 0, 600, 600);
 
+            $('#scroll-warning').css("opacity", 1/(winScroll / 20));
             $('.background-overlay').css("opacity", (winScroll / 4000) + .35)
             if (winScroll <= 2562) {
               $('#title').css({

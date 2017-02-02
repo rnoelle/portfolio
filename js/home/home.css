@@ -55,3 +55,21 @@ canvas {
   width: 100vw;
   opacity: 1;
 }
+#scroll-warning {
+  color: white;
+  position: fixed;
+  z-index: 9999;
+  top: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#scroll-warning h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+#scroll-warning i {
+  margin-top: -.5rem;
+  font-size: 5rem;
+}
