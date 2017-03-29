@@ -28,6 +28,7 @@ angular.module('portfolio')
               440 * Math.floor((Math.floor(winScroll / 40)) / 11) + 60,
               650, 1200, 0, 0, 600, 600);
 
+
             $('#scroll-warning').css("opacity", 1/(winScroll / 20));
             $('.background-overlay').css("opacity", (winScroll / 4000) + .35)
             if (winScroll <= 2562) {
@@ -35,6 +36,7 @@ angular.module('portfolio')
                 'transform': 'translate(0px, ' + winScroll / 1.51 + 'px)'
               })
             } else if (winScroll >= 2750) {
+              $('#scroll-warning').css("display", 'none');
               $('.scroll-nav-container').addClass('hidden-nav-cover');
               $('.original-scroll').css({
                 'opacity': '0'
